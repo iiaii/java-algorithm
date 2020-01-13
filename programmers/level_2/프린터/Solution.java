@@ -1,6 +1,11 @@
 import java.util.*;
 
 public class Solution {
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.solution(new int[]{1, 1, 9, 1, 1, 1}, 0));
+    }
+
     public int solution(int[] priorities, int location) {
         Printer printer = new Printer(priorities.length);
         printer.setPriorities(priorities);
