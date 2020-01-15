@@ -5,7 +5,7 @@ class Solution {
         Stack<Character> sticks = new Stack<>();
         int arrangement_length = arrangement.length();
         int count = 0;
-
+        
         for(int i=0 ; i<arrangement_length ; i++) {
             char c = arrangement.charAt(i);
 
