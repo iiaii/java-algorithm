@@ -3,11 +3,13 @@ package programmers.level2.오픈채팅방;
 import java.util.Arrays;
 import java.util.HashMap;
 
+import static java.util.Arrays.*;
+
 public class Solution {
     public HashMap<String, String> id = new HashMap<>();
     public String[] solution(String[] record) {
-        Arrays.stream(record).filter(s -> !s.startsWith("Leave")).forEach(this::setId);
-        return Arrays.stream(record).filter(s -> !s.startsWith("Change")).map(this::getHistory).toArray(String[]::new);
+        stream(record).filter(s -> !s.startsWith("L")).forEach(this::setId);
+        return stream(record).filter(s -> !s.startsWith("Change")).map(this::getHistory).toArray(String[]::new);
     }
 
     public void setId(String line) {
