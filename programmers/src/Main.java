@@ -2,22 +2,54 @@
 
 //import programmers.level3.기둥과보설치.Solution;
 
-import DevMatching.p1.Solution;
-//import DevMatching.p2.Solution;
-//import DevMatching.p3.Solution;
 
 import java.util.Arrays;
 
 
+class Solution {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int n = solution.solution("011","1");
+        System.out.println("n = " + n);
+    }
+
+    public int solution(String road, int n) {
+        int max = countMaxRoadLength(road, n, 0);
+        System.out.println(max);
+        for (int i = 0; i < road.length() ; i++) {
+            if(road.charAt(i) == '0' && i+1 < road.length()) {
+                System.out.println(countMaxRoadLength(road, n, i+1));
+                max = Math.max(max, countMaxRoadLength(road, n, i+1));
+            }
+        }
+        return max;
+    }
+
+    public int countMaxRoadLength(String road, int n, int currentPos) {
+        int count = 0;
+        while(currentPos < road.length()) {
+            if(road.charAt(currentPos) == '0') {
+                n--;
+            }
+            if(n < 0) {
+                break;
+            }
+            currentPos++;
+            count++;
+        }
+        return count;
+    }
+}
+
 public class Main {
     public static void main(String[] args) throws Exception {
         // 입력
-        String[][] input = {
-
+        String[] input = {
+            "011"
         };
 
-        String[][] input2 = {
-
+        int[] input2 = {
+            1
         };
 
         String[][] input3 = {
