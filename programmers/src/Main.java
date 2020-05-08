@@ -7,12 +7,6 @@ import java.util.Arrays;
 
 
 class Solution {
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        int n = solution.solution("011","1");
-        System.out.println("n = " + n);
-    }
-
     public int solution(String road, int n) {
         int max = countMaxRoadLength(road, n, 0);
         System.out.println(max);

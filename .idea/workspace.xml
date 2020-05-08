@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="965da16a-ee82-4985-8e81-629ddbdf0b2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/java-algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programmers/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/src/Main.java" afterDir="false" />
     </list>
@@ -36,7 +31,7 @@
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="level2.Main" />
       <module name="java-algorithm" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -46,11 +41,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -63,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583825438148</updated>
       <workItem from="1583825440663" duration="72000" />
-      <workItem from="1588942488830" duration="3264000" />
+      <workItem from="1588942488830" duration="3789000" />
     </task>
     <servers />
   </component>
@@ -75,21 +65,33 @@
       <screen x="0" y="23" width="1280" height="734" />
     </state>
     <state x="489" y="297" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1588946016821" />
-    <state width="1238" height="183" key="GridCell.Tab.0.bottom" timestamp="1588946107891">
+    <state width="1238" height="183" key="GridCell.Tab.0.bottom" timestamp="1588946931790">
       <screen x="0" y="23" width="1280" height="734" />
     </state>
-    <state width="1238" height="183" key="GridCell.Tab.0.bottom/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1588946107891" />
-    <state width="1238" height="183" key="GridCell.Tab.0.center" timestamp="1588946107890">
+    <state width="1238" height="183" key="GridCell.Tab.0.bottom/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1588946931790" />
+    <state width="1238" height="183" key="GridCell.Tab.0.center" timestamp="1588946931789">
       <screen x="0" y="23" width="1280" height="734" />
     </state>
-    <state width="1238" height="183" key="GridCell.Tab.0.center/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1588946107890" />
-    <state width="1238" height="183" key="GridCell.Tab.0.left" timestamp="1588946107889">
+    <state width="1238" height="183" key="GridCell.Tab.0.center/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1588946931789" />
+    <state width="1238" height="183" key="GridCell.Tab.0.left" timestamp="1588946931789">
       <screen x="0" y="23" width="1280" height="734" />
     </state>
-    <state width="1238" height="183" key="GridCell.Tab.0.left/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1588946107889" />
-    <state width="1238" height="183" key="GridCell.Tab.0.right" timestamp="1588946107890">
+    <state width="1238" height="183" key="GridCell.Tab.0.left/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1588946931789" />
+    <state width="1238" height="183" key="GridCell.Tab.0.right" timestamp="1588946931790">
       <screen x="0" y="23" width="1280" height="734" />
     </state>
-    <state width="1238" height="183" key="GridCell.Tab.0.right/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1588946107890" />
+    <state width="1238" height="183" key="GridCell.Tab.0.right/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1588946931790" />
+    <state x="420" y="119" key="RollbackChangesDialog" timestamp="1588946846308">
+      <screen x="0" y="23" width="1280" height="734" />
+    </state>
+    <state x="420" y="119" key="RollbackChangesDialog/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1588946846308" />
+    <state x="221" y="115" width="837" height="550" key="find.popup" timestamp="1588946438424">
+      <screen x="0" y="23" width="1280" height="734" />
+    </state>
+    <state x="221" y="115" width="837" height="550" key="find.popup/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1588946438424" />
+    <state x="430" y="261" key="git4idea.rebase.GitRebaseDialog" timestamp="1588946541199">
+      <screen x="0" y="23" width="1280" height="734" />
+    </state>
+    <state x="430" y="261" key="git4idea.rebase.GitRebaseDialog/0.23.1280.734/-305.-1057.1920.1057@0.23.1280.734" timestamp="1588946541199" />
   </component>
 </project>
